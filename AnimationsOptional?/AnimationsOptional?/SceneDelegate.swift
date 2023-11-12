@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Animations
+//  AnimationsOptional?
 //
 //  Created by Levan Loladze on 12.11.23.
 //
@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let someScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: someScene)
-        
         window?.rootViewController = ViewController()
         window?.makeKeyAndVisible()
     }
